@@ -12,15 +12,15 @@ int findAddress(int* arr,int size,int key)
 		if (arr[i] == key)
 			return i;
 		
-		if (arr[i] > key && key < nearestGreater)
-		{
-			nearestGreater = arr[i];
-			itsAdd = i;
-			if (i == size)
-			{
-				return itsAdd;
-			}
-		}
+		// if (arr[i] > key && key < nearestGreater)
+		// {
+		// 	nearestGreater = arr[i];
+		// 	itsAdd = i;
+		// 	if (i == size)
+		// 	{
+		// 		return itsAdd;
+		// 	}
+		// }
 	}
 }
 
